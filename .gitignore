@@ -1,11 +1,79 @@
-# Python
-.pytest_cache/
-__blobstorage__/
-__pycache__/
-__queuestorage__/
-*.pyc
-.venv/
 
+infra/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+.cache
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.mo
+*.pot
+*.log
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.python-version
+.ropeproject
+celerybeat-schedule
+*.sage.py
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+.scrapy
+target/
+/site
+docs/_build/
+*.so
+
+# Packaging / distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Node / Next.js
 node_modules/
@@ -17,24 +85,30 @@ out/
 # Azure Functions / Azurite
 .azurite/
 __azurite*.json
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
 .python_packages/
 .local-data/
 local.settings.json
+local.settings.example.json
 local.settings.json*
-*.xlsx
-*.xls
+appsettings.json
+bin
+obj
+
 
 # Editors / OS
 .vscode/
 .DS_Store
+.spyderproject
+.spyproject
 
-
+# Project-specific
 CLAUDE.md
 .claude/
 docs/
-
 tests/
 dev/
 del/
 _del/
-
