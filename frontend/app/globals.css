@@ -1,0 +1,15 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+main { max-width: 860px; margin: 3rem auto; padding: 0 1rem; }
+.checks { list-style: none; padding: 0; }
+.checks li { display: flex; gap: .75rem; align-items: baseline; padding: .6rem .8rem;
+  border-radius: 8px; margin-bottom: .4rem; background: rgba(127,127,127,.08); }
+.checks .dot { font-weight: 700; width: 1rem; }
+.checks .ok .dot { color: #1a7f37; }
+.checks .bad .dot { color: #cf222e; }
+.checks strong { min-width: 10rem; }
+.checks code { font-size: .8rem; opacity: .8; word-break: break-all; }
+.muted { opacity: .6; font-size: .85rem; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; }
+.grid form { display: flex; gap: .5rem; }
+.msg { grid-column: 1 / -1; }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }

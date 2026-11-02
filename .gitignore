@@ -1,0 +1,40 @@
+# Python
+.pytest_cache/
+__blobstorage__/
+__pycache__/
+__queuestorage__/
+*.pyc
+.venv/
+
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.env.local
+.env.local.*
+
+# Azure Functions / Azurite
+.azurite/
+__azurite*.json
+.python_packages/
+.local-data/
+local.settings.json
+local.settings.json*
+*.xlsx
+*.xls
+
+# Editors / OS
+.vscode/
+.DS_Store
+
+
+CLAUDE.md
+.claude/
+docs/
+
+tests/
+dev/
+del/
+_del/
+
